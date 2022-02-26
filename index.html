@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Space+Mono&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="style.css">
+      <title>404 Not Found</title>
+
+    <style>
+      body{
+        margin: 0;
+        padding: 0;
+      }
+      a{
+        text-decoration: none;
+      }
+      .container{
+        margin: 0 50px;
+      }
+
+      .cabeca{
+        font-family: "Inconsolata", monospace;
+        font-weight: 700;
+        font-size: 24px;
+        color: #333333;
+        text-transform: uppercase;
+        line-height: 25px;
+        letter-spacing: -0.08em;
+      }
+
+      .welcome{
+        font-family: "Space Mono", monospace;
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+
+      .img {
+        width: 450px;
+      }
+
+      .titulo{
+        font-weight: 700;
+        line-height: 75px;
+        font-size: 60px;
+        width: 586px;
+        font-weight: bold;
+        color: #333333;
+        letter-spacing: -0.035em;
+      }
+
+      .texto{
+        font-weight: 400;
+        line-height: 32px;
+        font-size: 24px;
+        width: 380px;
+        color: #4F4F4F;
+        letter-spacing: -0.035em;
+        padding-bottom: 20px;
+        
+      }
+
+      .butao{
+        background-color: #333333;
+        color: white;
+        padding: 10px 20px;
+      }
+      @media (max-width: 850px){
+        .welcome{
+          flex-direction: column;
+        }
+        .img{
+          width: 350px;
+        }
+        .titulo{
+          font-size: 40px;
+          line-height: 45px;
+          width: 100%;
+        }
+        .texto{
+          width: 100%;
+        }
+      }
+</style>
+  </head>
+  <body>
+    <main class="container"> 
+      <div class="cabeca">
+        <h2>404 Not Found</h2>
+      </div>
+      
+      <div class="welcome">           
+          <div class="boneco">
+              <img src="Scarecrow.png" alt="Scarerow" class="img">
+          </div>
+        <div class="welcome-text">
+          <h1 class="titulo">I have bad news for you</h1>
+          <p class="texto">
+            The page you are looking for might be removed or is temporarily unavailable
+          </p>
+  
+          
+            <a href="" class="butao">BACK TO HOMEPAGE</a>
+        </div>
+
+    </main>
+    
+
+    </div>
+  </body>
+</html>
